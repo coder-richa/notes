@@ -121,8 +121,11 @@ We can format strings.
 **Declare a variable 'name' that stores a string value**
 
 name = "John Brown"
+
 age = 25
+
 sentence = f"{name} is {age} years old."
+
 print(sentence)
 
 ### Output
@@ -137,12 +140,16 @@ We can compare strings using equality operator. String comparison is case sensit
 **Declare variables 'name1' and 'name2' that stores a string value**
 
 name1 = "John Brown"
+
 name2 = "john brown"
+
 print(name1 == name2)
+
 print(name1.lower() == name2.lower())
 
 ### Output
 False
+
 True
 
 ## 6. Mask String
@@ -150,9 +157,13 @@ True
 ### Example
 
 credit\*card = "1234567812345"
+
 last_four_char = credit_card[-4:]
+
 masked_credit_card = "x" \_ (len(credit_card)-4) + last_four_char
+
 print(masked_credit_card )
 
 ### Output
+
 xxxxxxxxx2345
