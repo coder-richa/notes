@@ -29,7 +29,7 @@ print(name[5])
 ### Syntax:
  string_var[start_index: end_index: step]
 
-**By default: start_index = 0, end_index = length of string and step = 1 **
+**By default: start_index = 0, end_index = length of string and step = 1**
 
 ### Example
 **Retrieving 'ython'**
@@ -156,11 +156,11 @@ True
 
 ### Example
 
-credit\*card = "1234567812345"
+credit_card = "1234567812345"
 
 last_four_char = credit_card[-4:]
 
-masked_credit_card = "x" \_ (len(credit_card)-4) + last_four_char
+masked_credit_card = "x" \* (len(credit_card)-4) + last_four_char
 
 print(masked_credit_card )
 
