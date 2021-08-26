@@ -12,8 +12,10 @@ str_var[start_index:end_index:step]
 
 **Declare a variable 'name' that stores a string value**
 
-name = "Python" #### Retrieving first character in a string
-print(name[0]) #### Prints 'P'
+name = "Python" 
+**Retrieving first character in a string**
+print(name[0]) 
+**Prints 'P'**
 
 **Retrieving last character in a string**
 
@@ -47,12 +49,19 @@ print(name[::2])
 print(name[::-1])
 
 ### Output
+
 P
+
 n
+
 n
+
 ython
+
 yth
+
 Pto
+
 nohtyP
 
 ## 2. Case Manipulation
@@ -77,9 +86,11 @@ print(name.upper())
 
 print(name.title())
 
-### Output*
+### Output
 john brown
+
 JOHN BROWN
+
 John Brown
 
 ## 3. Split String
